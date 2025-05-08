@@ -1,0 +1,41 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+env.bak/
+venv.bak/
+# Virtual environment directories
+*.env
+*.env.*
+.env.local
+.env.production
+.env.development
+# VS Code settings
+.vscode/
+# Pytest cache
+.cache/
+# MyPy
+.mypy_cache/
+# Coverage reports
+coverage.xml
+*.coveragerc
+*.tox
+*.nox
+*.coverage
+*.hypothesis/
+# Local pydantic schemas if used
+models/
+# Flask or FastAPI specific migrations, logs
+migrations/
+instance/
+# JetBrains IDE settings
+.idea/
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+# Logs
+*.log
